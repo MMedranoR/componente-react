@@ -1,0 +1,83 @@
+.listContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+  }
+  
+  .listCreateForm {
+    margin-bottom: 20px;
+  }
+  
+  .listInput {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .listSubmit {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .tasklistapp {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .tasklistapp .info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .tasklistapp .info button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #ddd;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .tasklistapp .info button.editbutton {
+    background-color: #2196f3; /* Azul para el botón de editar */
+  }
+  
+  .tasklistapp .info button.deletebutton {
+    background-color: #f44336; /* Rojo para el botón de eliminar */
+  }
+  
+  .tasklistapp .tasklistappInput {
+    width: 200px;
+    padding: 5px;
+  }
+  
+  .tasklistapp .updateForm {
+    margin-top: 10px;
+  }
+  
+  .tasklistapp .update {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
